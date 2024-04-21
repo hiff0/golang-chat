@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Real Time Chat</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Real Time Chat</h1>
+            </div>
+            <form id="input-form" class="form-inline">
+                <div class="form-group">
+                    <input
+                        id="input-username"
+                        type="text"
+                        class="form-control"
+                        placeholder="Enter username"
+                    />
+                </div>
+                <div class="form-group">
+                    <input
+                        id="input-text"
+                        type="text"
+                        class="form-control"
+                        placeholder="Enter chat text here"
+                    />
+                </div>
+                <button class="btn btn-primary" type="submit">Отправить</button>
+            </form>
+            <div id="chat-text"></div>
+        </div>
+
+        
+        <script type="text/javascript" src="./main.js"></script>
+    </body>
+</html>
